@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Variable Project</title>
+</head>
+<body>
+    <h1>JavaScript Variable Project</h1>
+    <p>Open the console to see the outputs.</p>
+
+    <script>
+       
+        var globalNumber = 10; 
+        console.log("Global Number:", globalNumber);
+
+        
+        {
+            let blockNumber = 5; 
+            console.log("Block Number:", blockNumber);
+
+           
+            let sum = globalNumber + blockNumber;
+            console.log("Sum of globalNumber + blockNumber:", sum);
+        }
+
+       
+       
+        let greeting = "Hello, world!"; 
+        console.log("Greeting:", greeting);
+
+        const person = {
+            name: "Alice",
+            age: 25,
+            city: "New York"
+        };
+        console.log("Person Object:", person);
+
+       
+        var globalNumber = 20; 
+        console.log("Updated globalNumber:", globalNumber);
+    </script>
+</body>
+</html>
